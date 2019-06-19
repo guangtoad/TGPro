@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C39257225326E900EBB01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C39256225326E900EBB01E /* AppDelegate.swift */; };
+		53C39259225326E900EBB01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C39258225326E900EBB01E /* ViewController.swift */; };
+		53C3925B225326EA00EBB01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C3925A225326EA00EBB01E /* Assets.xcassets */; };
+		53C3925E225326EA00EBB01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C3925C225326EA00EBB01E /* Main.storyboard */; };
+		53C3926A225326EA00EBB01E /* TGProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C39269225326EA00EBB01E /* TGProTests.swift */; };
+		53C39275225326EA00EBB01E /* TGProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C39274225326EA00EBB01E /* TGProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C39266225326EA00EBB01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C3924B225326E900EBB01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C39252225326E900EBB01E;
+			remoteInfo = TGPro;
+		};
+		53C39271225326EA00EBB01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C3924B225326E900EBB01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C39252225326E900EBB01E;
+			remoteInfo = TGPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53C39253225326E900EBB01E /* TGPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C39256225326E900EBB01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53C39258225326E900EBB01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53C3925A225326EA00EBB01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C3925D225326EA00EBB01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53C3925F225326EA00EBB01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C39260225326EA00EBB01E /* TGPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TGPro.entitlements; sourceTree = "<group>"; };
+		53C39265225326EA00EBB01E /* TGProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C39269225326EA00EBB01E /* TGProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGProTests.swift; sourceTree = "<group>"; };
+		53C3926B225326EA00EBB01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C39270225326EA00EBB01E /* TGProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C39274225326EA00EBB01E /* TGProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGProUITests.swift; sourceTree = "<group>"; };
+		53C39276225326EA00EBB01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C39250225326E900EBB01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C39262225326EA00EBB01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3926D225326EA00EBB01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C3924A225326E900EBB01E = {
+			isa = PBXGroup;
+			children = (
+				53C39255225326E900EBB01E /* TGPro */,
+				53C39268225326EA00EBB01E /* TGProTests */,
+				53C39273225326EA00EBB01E /* TGProUITests */,
+				53C39254225326E900EBB01E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53C39254225326E900EBB01E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C39253225326E900EBB01E /* TGPro.app */,
+				53C39265225326EA00EBB01E /* TGProTests.xctest */,
+				53C39270225326EA00EBB01E /* TGProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C39255225326E900EBB01E /* TGPro */ = {
+			isa = PBXGroup;
+			children = (
+				53C39256225326E900EBB01E /* AppDelegate.swift */,
+				53C39258225326E900EBB01E /* ViewController.swift */,
+				53C3925A225326EA00EBB01E /* Assets.xcassets */,
+				53C3925C225326EA00EBB01E /* Main.storyboard */,
+				53C3925F225326EA00EBB01E /* Info.plist */,
+				53C39260225326EA00EBB01E /* TGPro.entitlements */,
+			);
+			path = TGPro;
+			sourceTree = "<group>";
+		};
+		53C39268225326EA00EBB01E /* TGProTests */ = {
+			isa = PBXGroup;
+			children = (
+				53C39269225326EA00EBB01E /* TGProTests.swift */,
+				53C3926B225326EA00EBB01E /* Info.plist */,
+			);
+			path = TGProTests;
+			sourceTree = "<group>";
+		};
+		53C39273225326EA00EBB01E /* TGProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53C39274225326EA00EBB01E /* TGProUITests.swift */,
+				53C39276225326EA00EBB01E /* Info.plist */,
+			);
+			path = TGProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C39252225326E900EBB01E /* TGPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C39279225326EA00EBB01E /* Build configuration list for PBXNativeTarget "TGPro" */;
+			buildPhases = (
+				53C3924F225326E900EBB01E /* Sources */,
+				53C39250225326E900EBB01E /* Frameworks */,
+				53C39251225326E900EBB01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGPro;
+			productName = TGPro;
+			productReference = 53C39253225326E900EBB01E /* TGPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53C39264225326EA00EBB01E /* TGProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C3927C225326EA00EBB01E /* Build configuration list for PBXNativeTarget "TGProTests" */;
+			buildPhases = (
+				53C39261225326EA00EBB01E /* Sources */,
+				53C39262225326EA00EBB01E /* Frameworks */,
+				53C39263225326EA00EBB01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C39267225326EA00EBB01E /* PBXTargetDependency */,
+			);
+			name = TGProTests;
+			productName = TGProTests;
+			productReference = 53C39265225326EA00EBB01E /* TGProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53C3926F225326EA00EBB01E /* TGProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C3927F225326EA00EBB01E /* Build configuration list for PBXNativeTarget "TGProUITests" */;
+			buildPhases = (
+				53C3926C225326EA00EBB01E /* Sources */,
+				53C3926D225326EA00EBB01E /* Frameworks */,
+				53C3926E225326EA00EBB01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C39272225326EA00EBB01E /* PBXTargetDependency */,
+			);
+			name = TGProUITests;
+			productName = TGProUITests;
+			productReference = 53C39270225326EA00EBB01E /* TGProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C3924B225326E900EBB01E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = toad;
+				TargetAttributes = {
+					53C39252225326E900EBB01E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					53C39264225326EA00EBB01E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 53C39252225326E900EBB01E;
+					};
+					53C3926F225326EA00EBB01E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 53C39252225326E900EBB01E;
+					};
+				};
+			};
+			buildConfigurationList = 53C3924E225326E900EBB01E /* Build configuration list for PBXProject "TGPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C3924A225326E900EBB01E;
+			productRefGroup = 53C39254225326E900EBB01E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C39252225326E900EBB01E /* TGPro */,
+				53C39264225326EA00EBB01E /* TGProTests */,
+				53C3926F225326EA00EBB01E /* TGProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C39251225326E900EBB01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C3925B225326EA00EBB01E /* Assets.xcassets in Resources */,
+				53C3925E225326EA00EBB01E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C39263225326EA00EBB01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3926E225326EA00EBB01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C3924F225326E900EBB01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C39259225326E900EBB01E /* ViewController.swift in Sources */,
+				53C39257225326E900EBB01E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C39261225326EA00EBB01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C3926A225326EA00EBB01E /* TGProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3926C225326EA00EBB01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C39275225326EA00EBB01E /* TGProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C39267225326EA00EBB01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C39252225326E900EBB01E /* TGPro */;
+			targetProxy = 53C39266225326EA00EBB01E /* PBXContainerItemProxy */;
+		};
+		53C39272225326EA00EBB01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C39252225326E900EBB01E /* TGPro */;
+			targetProxy = 53C39271225326EA00EBB01E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53C3925C225326EA00EBB01E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C3925D225326EA00EBB01E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C39277225326EA00EBB01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53C39278225326EA00EBB01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		53C3927A225326EA00EBB01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TGPro/TGPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		53C3927B225326EA00EBB01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TGPro/TGPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		53C3927D225326EA00EBB01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGPro.app/Contents/MacOS/TGPro";
+			};
+			name = Debug;
+		};
+		53C3927E225326EA00EBB01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGPro.app/Contents/MacOS/TGPro";
+			};
+			name = Release;
+		};
+		53C39280225326EA00EBB01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = TGPro;
+			};
+			name = Debug;
+		};
+		53C39281225326EA00EBB01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = TGPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C3924E225326E900EBB01E /* Build configuration list for PBXProject "TGPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C39277225326EA00EBB01E /* Debug */,
+				53C39278225326EA00EBB01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C39279225326EA00EBB01E /* Build configuration list for PBXNativeTarget "TGPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C3927A225326EA00EBB01E /* Debug */,
+				53C3927B225326EA00EBB01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C3927C225326EA00EBB01E /* Build configuration list for PBXNativeTarget "TGProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C3927D225326EA00EBB01E /* Debug */,
+				53C3927E225326EA00EBB01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C3927F225326EA00EBB01E /* Build configuration list for PBXNativeTarget "TGProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C39280225326EA00EBB01E /* Debug */,
+				53C39281225326EA00EBB01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C3924B225326E900EBB01E /* Project object */;
+}

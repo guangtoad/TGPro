@@ -15,6 +15,9 @@
 		53D76897228C17E600DDF073 /* TGProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D76896228C17E600DDF073 /* TGProTests.m */; };
 		53D768A2228C17E600DDF073 /* TGProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D768A1228C17E600DDF073 /* TGProUITests.m */; };
 		53D768B0228C186100DDF073 /* ImageToBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D768AF228C186000DDF073 /* ImageToBase64.m */; };
+		53F9F08F22B8D84400396156 /* UIView+HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F08922B8D84300396156 /* UIView+HttpClient.m */; };
+		53F9F09022B8D84400396156 /* NSObject+HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F08C22B8D84300396156 /* NSObject+HttpClient.m */; };
+		53F9F09122B8D84400396156 /* UIViewController+HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9F08E22B8D84300396156 /* UIViewController+HttpClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		53D768A3228C17E600DDF073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53D768AE228C186000DDF073 /* ImageToBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageToBase64.h; sourceTree = "<group>"; };
 		53D768AF228C186000DDF073 /* ImageToBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageToBase64.m; sourceTree = "<group>"; };
+		53F9F08922B8D84300396156 /* UIView+HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HttpClient.m"; sourceTree = "<group>"; };
+		53F9F08A22B8D84300396156 /* NSObject+HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HttpClient.h"; sourceTree = "<group>"; };
+		53F9F08B22B8D84300396156 /* UIViewController+HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HttpClient.h"; sourceTree = "<group>"; };
+		53F9F08C22B8D84300396156 /* NSObject+HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HttpClient.m"; sourceTree = "<group>"; };
+		53F9F08D22B8D84300396156 /* UIView+HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HttpClient.h"; sourceTree = "<group>"; };
+		53F9F08E22B8D84300396156 /* UIViewController+HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HttpClient.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,7 @@
 		53D76807228C176A00DDF073 = {
 			isa = PBXGroup;
 			children = (
+				53F9F08622B8D84300396156 /* NetWork */,
 				53D768AD228C184B00DDF073 /* Class */,
 				53D7687E228C17E400DDF073 /* TGPro */,
 				53D76895228C17E600DDF073 /* TGProTests */,
@@ -142,6 +152,35 @@
 				53D768AF228C186000DDF073 /* ImageToBase64.m */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		53F9F08622B8D84300396156 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F08722B8D84300396156 /* HttpClinet */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		53F9F08722B8D84300396156 /* HttpClinet */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F08822B8D84300396156 /* UI+HttpClinet */,
+			);
+			path = HttpClinet;
+			sourceTree = "<group>";
+		};
+		53F9F08822B8D84300396156 /* UI+HttpClinet */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F08922B8D84300396156 /* UIView+HttpClient.m */,
+				53F9F08A22B8D84300396156 /* NSObject+HttpClient.h */,
+				53F9F08B22B8D84300396156 /* UIViewController+HttpClient.h */,
+				53F9F08C22B8D84300396156 /* NSObject+HttpClient.m */,
+				53F9F08D22B8D84300396156 /* UIView+HttpClient.h */,
+				53F9F08E22B8D84300396156 /* UIViewController+HttpClient.m */,
+			);
+			path = "UI+HttpClinet";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F9F08F22B8D84400396156 /* UIView+HttpClient.m in Sources */,
+				53F9F09122B8D84400396156 /* UIViewController+HttpClient.m in Sources */,
 				53D76884228C17E400DDF073 /* ViewController.m in Sources */,
 				53D768B0228C186100DDF073 /* ImageToBase64.m in Sources */,
 				53D7688C228C17E500DDF073 /* main.m in Sources */,
+				53F9F09022B8D84400396156 /* NSObject+HttpClient.m in Sources */,
 				53D76881228C17E400DDF073 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
